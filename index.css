@@ -1,0 +1,507 @@
+body{
+    margin: 0;
+}
+
+
+.home{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-y: scroll;
+    background-attachment: scroll;
+}
+
+.videos{
+  position: absolute;
+  width: 100vw; 
+  height: 100vh; 
+  overflow: hidden;
+}
+
+
+video {
+  position: fixed; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+
+}
+
+
+
+
+.Indices{
+    display: flex;
+    width: 100vw;
+    height: 13vh;
+    position: fixed;
+    opacity: 90%;
+    font-family: "Protest Strike", sans-serif;
+}
+
+
+.Indice{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    z-index: 1000;
+    
+}
+
+
+.indiced{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+
+.opciones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+.opciones a{
+    color: #FBBF07;
+    text-decoration: none;
+}
+
+.opciones a:hover{
+    color: red;
+}
+.nombre_pagina{
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
+
+.nombre_pagina h2{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+
+h4{
+   list-style: none;
+   padding-right: 15px;
+}
+
+
+.medio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.requerimientos{
+    background-color: #131A1D;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto_requerimientos{
+    display: flex;
+    font-size: 45px;
+    align-content: flex-start;
+    align-items: center;
+    padding-bottom: 70px;
+    color: red;
+
+}
+
+
+.clores{
+    display: flex;
+    background-image: url(foto3.jpg);
+    width: 80vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+}
+
+.tablas{
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.tablauno{
+    background-color: black;
+    opacity: 85%;
+    width: 35vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+#header.tablauno{
+    size: 40px;
+}
+
+
+.tablados{
+    background-color: black;
+    opacity: 85%;
+    width: 35vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+
+ul.rm{
+    list-style: none;
+    color: white
+   
+}
+
+
+ul.rr{
+    list-style: none;
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2D2D2D;
+}
+
+.texto_about{
+    font-size: 45px;
+    padding-top: 120px;
+    color: red;
+
+}
+
+.about h3{
+    text-align: center;
+}
+
+.Descripcion{
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.about a{
+    text-align: center;
+    align-items: center;
+}
+
+.todoa{
+    display: flex;
+    flex-direction: column;
+}
+
+.videoab{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+.actualizaciones{
+    background-color: #131A1D;
+    width: 100vw;
+    height: 100vh;
+ }
+
+ .text_actualizaciones h3{
+    text-align: center;
+ }
+ 
+ 
+ .texto_actualizaciones{
+    font-size: 45px;
+    padding-top: 115px;
+    align-content: center;
+    color: red;
+    text-align: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .filau{
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+ }
+ 
+ 
+ 
+ 
+ .filad{
+    display: flex;
+    padding-bottom: 70px;
+    font-family: "Josefin Sans", sans-serif;
+ }
+ 
+ 
+ 
+ 
+ .update10{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    height: 20vh;
+    margin-right: 5vw;
+    margin-left: 10vw;
+    margin-top: 90px;
+    transition: all 0.7s ease;
+    align-content: center;
+ }
+ 
+ 
+ .update10:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ 
+ 
+ .update11{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    padding-bottom: 0px;
+    margin-right: 5vw;
+    height: 20vh;
+    margin-top: 90px;
+    transition: all 0.7s ease;
+ }
+ 
+ 
+ .update11:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 45vw;
+ }
+ 
+ 
+ 
+ 
+ .update12{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    height: 20vh;
+    margin-right: 10vw;
+    margin-top: 90px;
+    transition: all 0.7s ease;
+ }
+ 
+ 
+ .update12:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ 
+ 
+ .update13{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    margin-right: 5vw;
+    height: 20vh;
+    margin-left: 10vw;
+    margin-top: 120px;
+    transition: all 0.7s ease;
+    margin-bottom: 100px;
+ }
+ 
+ 
+ .update13:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ 
+ 
+ .update14{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    padding-bottom: 0px;
+    margin-right: 5vw;
+    height: 20vh;
+    margin-top: 120px;
+    transition: all 0.7s ease;
+ }
+ 
+ 
+ .update14:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ 
+ 
+ .update15{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    height: 20vh;
+    margin-right: 10vw;
+    margin-top: 120px;
+    transition: all 0.7s ease;
+ }
+ 
+ 
+ .update15:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ ul{
+    list-style: none;
+ }
+ 
+
+
+
+
+
+
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-color:#2D2D2D;
+}
+
+.contact h3{
+    text-align: center;
+}
+
+.todo_contact{
+    background-color: black;
+    width: 30vw;
+    height: 35vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 70px;
+}
+
+.contact_uno{
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    width: 80%;
+    padding-bottom: 27px; 
+}
+
+.contact_dos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 27px; 
+}
+
+.contact_tres{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 27px; 
+}
+
+.redes_sociales{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    margin-top: 243px;
+    align-items: flex-end;
+}
+
+.cosas{
+    width: 35vw;
+    
+}
+
